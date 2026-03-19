@@ -15,7 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }, observerOptions);
 
     document.querySelectorAll('.reveal-fade, .reveal-slide-up').forEach((el) => {
-        fadeObserver.observe(el);
+        // If the element is within the Hero, activate it immediately so there's no initial load chop.
+        if (el.closest('.hero')) {
+            el.classList.add('active');
+        } else {
+            // Otherwise, let the scroll observer handle it as the user scrolls down.
+            fadeObserver.observe(el);
+        }
     });
 
     // Solid Nav specific scroll effect

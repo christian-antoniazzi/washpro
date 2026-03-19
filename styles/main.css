@@ -112,7 +112,7 @@ body {
 .nav-links a:not(.btn):hover { color: var(--royal); }
 
 /* Hero Section */
-.hero { position: relative; display: flex; align-items: center; padding: 5rem 0 6rem; min-height: 85vh; }
+.hero { position: relative; display: flex; align-items: center; padding: 6rem 0 8rem; }
 .hero-bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; }
 .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .hero-overlay {
@@ -250,6 +250,30 @@ section { padding: 5rem 0; }
 @media (max-width: 768px) {
   .trust-bar { display: none; }
   .nav-links a:not(.btn) { display: none; }
-  .services-grid { grid-template-columns: 1fr; }
-  .process-grid { grid-template-columns: 1fr; }
+  
+  /* Global Spacing Reduction */
+  section { padding: 3.5rem 0; }
+  .hero { padding: 3rem 0 4rem; }
+  .hero-container { gap: 2rem; }
+  
+  /* Typography Scaling */
+  .hero-title { font-size: clamp(2rem, 8vw, 2.75rem); margin-bottom: 1rem; line-height: 1.2; }
+  .hero-subtitle { font-size: 1rem; margin-bottom: 1.5rem; }
+  .section-title { font-size: 2rem; }
+  
+  /* Tighter Grids */
+  .services-grid { grid-template-columns: 1fr; gap: 1rem; }
+  .service-card { padding: 1.5rem; }
+  .process-grid { grid-template-columns: 1fr; gap: 2rem; margin-top: 2rem; }
+  .benefits-grid, .reviews-grid { grid-template-columns: 1fr; gap: 1.5rem; margin-top: 2rem; }
+  .benefit-card { padding: 1rem; }
+  .review-card { padding: 1.5rem; }
+  
+  /* Hero Form Compaction */
+  .form-card { padding: 1.5rem; }
+  .form-title { font-size: 1.25rem; }
+  .input-group label { font-size: 0.7rem; }
+  
+  /* Form Actions Flow */
+  .hero-actions { display: flex; flex-direction: column; width: 100%; gap: 1rem; }
 }
