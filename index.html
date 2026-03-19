@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WashPro SFV | Premium Pressure Washing in the San Fernando Valley</title>
+    <meta name="description" content="Professional pressure washing and exterior cleaning services in the San Fernando Valley, California. House washing, driveway cleaning, and commercial properties.">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    
+    <!-- Trust Bar -->
+    <div class="trust-bar">
+        <div class="container trust-bar-inner">
+            <div class="trust-badges">
+                <span class="trust-item"><span class="material-symbols-outlined">verified_user</span> Local San Fernando Valley Service</span>
+                <span class="trust-item"><span class="material-symbols-outlined">star</span> Quality Results & Responsive Communication</span>
+            </div>
+            <div class="trust-contact">
+                <a href="tel:1234567890" class="trust-link"><span class="material-symbols-outlined">phone</span> [PHONE_PLACEHOLDER]</a>
+                <a href="mailto:email@example.com" class="trust-link"><span class="material-symbols-outlined">mail</span> [EMAIL_PLACEHOLDER]</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="brand">
+                <span class="brand-icon material-symbols-outlined">water_drop</span>
+                WASHPRO SFV
+            </a>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#benefits">Why Us</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#faq">FAQ</a>
+                <a href="#hero-form" class="btn btn-primary">Get Free Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Integrated Form -->
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+            <img src="assets/hero.png" alt="Premium Pressure Washing in the San Fernando Valley">
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content reveal-fade">
+                <div class="hero-badge">Professional Exterior Cleaning</div>
+                <h1 class="hero-title">Premium Pressure Washing in the <span class="text-royal">San Fernando Valley.</span></h1>
+                <p class="hero-subtitle">Professional exterior cleaning for homes, driveways, patios, walkways, and small commercial properties. Reliable local service with polished results.</p>
+                <div class="hero-actions">
+                    <a href="#hero-form" class="btn btn-primary btn-lg">Get Free Quote</a>
+                    <a href="#services" class="btn btn-outline-dark btn-lg">View Services</a>
+                </div>
+            </div>
+
+            <!-- Integrated Lead Form -->
+            <div class="hero-form-wrapper reveal-slide-up" id="hero-form">
+                <div class="form-card shadow-lg">
+                    <h3 class="form-title">Request a Free Estimate</h3>
+                    <p class="form-desc">Fast quote process and professional communication. Serving the entire SFV area.</p>
+                    <form id="quoteForm">
+                        <div class="input-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="(818) 555-0000" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" required>
+                                <option value="" disabled selected>Select a Service...</option>
+                                <option value="house">House Washing</option>
+                                <option value="driveway">Driveway Cleaning</option>
+                                <option value="commercial">Small Commercial Pressure Washing</option>
+                                <option value="other">Other / Multiple</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="zip">SFV Zip Code or Neighborhood</label>
+                            <!-- e.g. [EXACT_NEIGHBORHOOD_PLACEHOLDER] -->
+                            <input type="text" id="zip" placeholder="e.g. Encino, Sherman Oaks..." required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="submitBtn">Get My Quote</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services bg-gray" id="services">
+        <div class="container">
+            <div class="section-header text-center reveal-fade">
+                <span class="section-badge">Pressure Washing Services</span>
+                <h2 class="section-title">Comprehensive Exterior Cleaning</h2>
+                <p class="section-desc">We safely and effectively remove dirt, mold, and grime across residential and light commercial properties in the San Fernando Valley.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card shadow-md reveal-slide-up">
+                    <div class="service-icon-wrap"><span class="material-symbols-outlined service-icon">home</span></div>
+                    <h3 class="service-title">House Washing</h3>
+                    <p class="service-text">Safe, low-pressure soft washing to remove algae and dirt without damaging your siding or stucco.</p>
+                </div>
+                <div class="service-card shadow-md reveal-slide-up" style="transition-delay: 50ms;">
+                    <div class="service-icon-wrap"><span class="material-symbols-outlined service-icon">directions_car</span></div>
+                    <h3 class="service-title">Driveway Cleaning</h3>
+                    <p class="service-text">High-powered surface cleaning to blast away deep-set tire marks, oil spills, and organics.</p>
+                </div>
+                <div class="service-card shadow-md reveal-slide-up" style="transition-delay: 100ms;">
+                    <div class="service-icon-wrap"><span class="material-symbols-outlined service-icon">directions_walk</span></div>
+                    <h3 class="service-title">Sidewalk / Walkway</h3>
+                    <p class="service-text">Restore curb appeal instantly with pristine, hazard-free walkways leading to your entry.</p>
+                </div>
+                <div class="service-card shadow-md reveal-slide-up" style="transition-delay: 150ms;">
+                    <div class="service-icon-wrap"><span class="material-symbols-outlined service-icon">deck</span></div>
+                    <h3 class="service-title">Patio Cleaning</h3>
+                    <p class="service-text">Rejuvenate your outdoor entertainment areas, carefully clearing stone, pavers, and concrete.</p>
+                </div>
+                <div class="service-card shadow-md reveal-slide-up" style="transition-delay: 200ms;">
+                    <div class="service-icon-wrap"><span class="material-symbols-outlined service-icon">weekend</span></div>
+                    <h3 class="service-title">Deck Cleaning</h3>
+                    <p class="service-text">Gentle restoration for wood and composite decking to prevent splintering while lifting dark stains.</p>
+                </div>
+                <div class="service-card shadow-md reveal-slide-up" style="transition-delay: 250ms;">
+                    <div class="service-icon-wrap"><span class="material-symbols-outlined service-icon">fence</span></div>
+                    <h3 class="service-title">Fence Cleaning</h3>
+                    <p class="service-text">Remove graying and mildew from wood or vinyl fencing, extending its lifespan significantly.</p>
+                </div>
+                <div class="service-card shadow-md reveal-slide-up" style="transition-delay: 300ms;">
+                    <div class="service-icon-wrap"><span class="material-symbols-outlined service-icon">format_paint</span></div>
+                    <h3 class="service-title">Exterior Surface Cleaning</h3>
+                    <p class="service-text">Customized pressure washing approaches for retaining walls, brickwork, and hardscaping.</p>
+                </div>
+                <div class="service-card shadow-md reveal-slide-up" style="transition-delay: 350ms;">
+                    <div class="service-icon-wrap"><span class="material-symbols-outlined service-icon">storefront</span></div>
+                    <h3 class="service-title">Small Commercial</h3>
+                    <p class="service-text">Keep your storefront, heavy foot-traffic areas, and entryways spotless to welcome more customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process bg-navy text-white" id="process">
+        <div class="container">
+            <div class="section-header text-center reveal-fade">
+                <span class="section-badge" style="color:var(--royal-light);">How It Works</span>
+                <h2 class="section-title text-white">Quality Work Without the Hassle.</h2>
+                <p class="section-desc" style="color:var(--gray-200);">We respect your time. Our streamlined process makes transforming your property effortless from start to finish.</p>
+            </div>
+
+            <div class="process-grid reveal-fade">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h4 class="step-title">Request a Quote</h4>
+                    <p class="step-text">Fill out our fast quote form and we'll reply promptly.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h4 class="step-title">Schedule Service</h4>
+                    <p class="step-text">Pick a time that works best for you. Dependable scheduling guaranteed.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h4 class="step-title">We Clean the Surface</h4>
+                    <p class="step-text">Our technicians arrive and execute professional-grade exterior cleaning.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h4 class="step-title">Enjoy the Results</h4>
+                    <p class="step-text">Experience a safer, cleaner surface and massively boosted curb appeal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits / Why Choose Us -->
+    <section class="benefits bg-white" id="benefits">
+        <div class="container">
+             <div class="section-header text-center reveal-fade">
+                 <span class="section-badge">Why WashPro SFV</span>
+                 <h2 class="section-title">Premium Results. Reliable Service.</h2>
+                 <p class="section-desc">We treat every residential and commercial property as if it were our own, ensuring meticulous detailing and professional communication.</p>
+             </div>
+             <div class="benefits-grid">
+                 <div class="benefit-card reveal-slide-up">
+                     <span class="material-symbols-outlined text-royal" style="font-size:3rem; margin-bottom:1rem;">verified</span>
+                     <h3>Premium Cleaning Results</h3>
+                     <p>We use state-of-the-art equipment to lift years of grime, achieving a level of clean that consumer washers simply cannot match.</p>
+                 </div>
+                 <div class="benefit-card reveal-slide-up" style="transition-delay: 100ms;">
+                     <span class="material-symbols-outlined text-royal" style="font-size:3rem; margin-bottom:1rem;">house</span>
+                     <h3>Boost Curb Appeal Instantly</h3>
+                     <p>Whether you're hosting, relaxing, or selling, pressure washing is the single fastest way to drastically improve your home's exterior.</p>
+                 </div>
+                 <div class="benefit-card reveal-slide-up" style="transition-delay: 200ms;">
+                     <span class="material-symbols-outlined text-royal" style="font-size:3rem; margin-bottom:1rem;">health_and_safety</span>
+                     <h3>Safer, Cleaner Surfaces</h3>
+                     <p>Algae and mold on walkways present serious slip hazards. Our deep cleaning completely eliminates these dangerous organic growths.</p>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Before & After -->
+    <section class="gallery bg-gray" id="gallery">
+        <div class="container">
+            <div class="section-header text-center reveal-fade">
+                <span class="section-badge">Before & After</span>
+                <h2 class="section-title">See the Transformation</h2>
+                <p class="section-desc">Swipe below to see real exterior cleaning transformations in the San Fernando Valley.</p>
+            </div>
+
+            <div class="gallery-grid reveal-slide-up">
+                <!-- [PLACEHOLDER_BEFORE_IMAGE_1] -->
+                <div class="gallery-card shadow-sm">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/before.png" alt="Dirty Driveway Before Washing Placeholder">
+                        <div class="gallery-tag tag-before">Before</div>
+                    </div>
+                </div>
+
+                <!-- [PLACEHOLDER_AFTER_IMAGE_1] -->
+                <div class="gallery-card shadow-sm">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/after.png" alt="Clean Driveway After Washing Placeholder">
+                        <div class="gallery-tag tag-after">After</div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 2rem;">
+                 <p class="text-light text-sm" style="font-style: italic;">Note: Gallery features placeholder images. Genuine SFV project photos will be updated here shortly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews bg-white" id="reviews">
+        <div class="container">
+            <div class="section-header text-center reveal-fade">
+                <span class="section-badge">Client Testimonials</span>
+                <h2 class="section-title">Trusted by SFV Homeowners</h2>
+                <p class="section-desc">Don't just take our word for it. Look at what our local clients are saying about our responsive communication and quality work.</p>
+            </div>
+
+            <div class="reviews-grid">
+                <!-- [REVIEW_PLACEHOLDER_1] -->
+                <div class="review-card shadow-sm reveal-slide-up">
+                    <div class="stars"><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span></div>
+                    <p class="review-text">"WashPro SFV did an incredible job on our driveway and patio. The communication was professional, scheduling was dependable, and the house looks brand new."</p>
+                    <p class="review-author">— Homeowner, San Fernando Valley</p>
+                </div>
+                <!-- [REVIEW_PLACEHOLDER_2] -->
+                <div class="review-card shadow-sm reveal-slide-up" style="transition-delay: 100ms;">
+                    <div class="stars"><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span></div>
+                    <p class="review-text">"Fast quote process and excellent results. They easily removed years of dirt from my small commercial storefront. Highly recommended local service!"</p>
+                    <p class="review-author">— Business Owner, Sherman Oaks</p>
+                </div>
+                <!-- [REVIEW_PLACEHOLDER_3] -->
+                <div class="review-card shadow-sm reveal-slide-up" style="transition-delay: 200ms;">
+                    <div class="stars"><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span></div>
+                    <p class="review-text">"I was amazed at how clean my siding and walkways got. The soft washing preserved my paint perfectly. Top-tier exterior cleaning company."</p>
+                    <p class="review-author">— Local Resident, Encino</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq bg-gray" id="faq">
+        <div class="container reveal-fade">
+            <div class="section-header text-center">
+                <span class="section-badge">Common Questions</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="faq-accordion-wrapper">
+                <div class="faq-item">
+                    <button class="faq-question">What areas do you serve in the San Fernando Valley? <span class="material-symbols-outlined expand-icon">keyboard_arrow_down</span></button>
+                    <div class="faq-answer"><p>We provide comprehensive pressure washing services across the entire San Fernando Valley region, including [EXACT_NEIGHBORHOOD_PLACEHOLDERS: e.g. Encino, Sherman Oaks, Studio City, Burbank, and Northridge]. Please contact us if you are unsure if you fall within our exact boundaries.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">What surfaces can you clean? <span class="material-symbols-outlined expand-icon">keyboard_arrow_down</span></button>
+                    <div class="faq-answer"><p>We clean almost all exterior surfaces. This includes concrete driveways, stone patios, wood decks, vinyl fencing, brick walkways, and delicate house siding (using low-pressure soft washing techniques).</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Do you offer residential and small commercial pressure washing? <span class="material-symbols-outlined expand-icon">keyboard_arrow_down</span></button>
+                    <div class="faq-answer"><p>Yes, we specialize in both. Whether you are a homeowner needing a full exterior cleaning or a property manager looking to spruce up a small commercial storefront, our equipment is fully capable.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How do I request a quote? <span class="material-symbols-outlined expand-icon">keyboard_arrow_down</span></button>
+                    <div class="faq-answer"><p>You can request a quote extremely quickly by filling out the form at the top or bottom of this page. We prioritize a fast quote process and will generally follow up within a business day.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">How long does service usually take? <span class="material-symbols-outlined expand-icon">keyboard_arrow_down</span></button>
+                    <div class="faq-answer"><p>The duration depends heavily on the square footage and specific services requested. For example, a standard driveway typically takes 1-2 hours, while a full property exterior detailing may take half a day. We will provide an exact time estimate with your quote.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Do I need to be home during service? <span class="material-symbols-outlined expand-icon">keyboard_arrow_down</span></button>
+                    <div class="faq-answer"><p>No, you do not need to be home as long as we have full access to the exterior surfaces being cleaned and a functional exterior water hookup. We handle everything else professionally while you are away.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="cta-banner" style="background-color: var(--royal); color: var(--white);">
+        <div class="container cta-container reveal-fade">
+            <div class="cta-text">
+                <h2>Ready for a pristine property?</h2>
+                <p>Request your free estimate today for the premier pressure washing service in San Fernando Valley, California.</p>
+            </div>
+            <div class="cta-action">
+                <a href="tel:[PHONE_PLACEHOLDER]" class="btn btn-outline-white btn-lg"><span class="material-symbols-outlined">call</span> Call Us Now</a>
+                <a href="#hero-form" class="btn btn-navy btn-lg" style="background-color:var(--navy); color:white;">Get Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brandinfo">
+                <a href="#" class="brand brand-light">
+                    <span class="brand-icon material-symbols-outlined">water_drop</span> WashPro SFV
+                </a>
+                <p class="footer-desc">Premium exterior detailing and pressure washing services in the San Fernando Valley. Fully licensed and insured for commercial and residential properties.</p>
+                <div style="margin-top: 1rem;">
+                    <strong>[PHONE_PLACEHOLDER]</strong><br>
+                    <strong>[EMAIL_PLACEHOLDER]</strong>
+                </div>
+            </div>
+            <div class="footer-links-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">House Washing</a></li>
+                    <li><a href="#services">Driveway Cleaning</a></li>
+                    <li><a href="#services">Patio & Deck Cleaning</a></li>
+                    <li><a href="#services">Small Commercial Pressure Washing</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#benefits">Why Choose Us</a></li>
+                    <li><a href="#process">Our Process</a></li>
+                    <li><a href="#gallery">Before & After</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2024 WashPro SFV Pressure Washing. All rights reserved. San Fernando Valley, CA.</p>
+            <p style="margin-top: 0.5rem; display: flex; justify-content: center;">
+                <a href="https://github.com/christian-antoniazzi/washpro" target="_blank" style="color: var(--gray-200); text-decoration: none; display: flex; align-items: center; gap: 0.35rem; transition: color 0.2s;">
+                    <span class="material-symbols-outlined" style="font-size: 1.1rem;">code</span> View on GitHub
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
