@@ -5,9 +5,9 @@
   /* Core Authentic Colors - Dark Green Theme */
   --navy: #0A2540;
   --navy-light: #1A365D;
-  --royal: #00FF88;
-  --royal-hover: #00CC66;
-  --royal-light: #66FFAA;
+  --royal: #00DD77;
+  --royal-hover: #00AA55;
+  --royal-light: #55DD99;
   
   /* Grays & Neutrals - Darker for overall theme */
   --white: #1A1A1A;
@@ -101,7 +101,7 @@ body {
 .btn-block { width: 100%; }
 
 /* Trust Bar */
-.trust-bar { background-color: var(--navy); color: var(--white); padding: 0.6rem 0; font-size: 0.8125rem; font-weight:500;}
+.trust-bar { background-color: var(--navy); color: var(--text-main); padding: 0.6rem 0; font-size: 0.8125rem; font-weight:500;}
 .trust-bar-inner { display: flex; justify-content: space-between; align-items: center; }
 .trust-badges, .trust-contact { display: flex; gap: 1.5rem; align-items: center; }
 .trust-item, .trust-link { display: flex; align-items: center; gap: 0.35rem; color: var(--gray-200); text-decoration: none; }
@@ -116,7 +116,7 @@ body {
 .main-nav.scrolled { box-shadow: var(--shadow-sm); }
 .nav-container { display: flex; justify-content: space-between; align-items: center; }
 .brand {
-  font-size: 1.5rem; font-weight: 800; color: var(--navy); letter-spacing: -0.02em;
+  font-size: 1.5rem; font-weight: 800; color: var(--text-main); letter-spacing: -0.02em;
   display: flex; align-items: center; gap: 0.5rem; text-decoration: none;
 }
 .brand-icon { color: var(--royal); font-variation-settings: 'FILL' 1; }
@@ -153,16 +153,16 @@ body {
 .hero-content { max-width: 650px; }
 .hero-badge {
   display: inline-block; padding: 0.25rem 0.75rem; background-color: var(--gray-50); border: 1px solid var(--gray-200);
-  border-radius: 100px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--navy); margin-bottom: 1.5rem;
+  border-radius: 100px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-main); margin-bottom: 1.5rem;
 }
-.hero-title { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; line-height: 1.15; color: var(--navy); margin-bottom: 1.5rem; letter-spacing: -0.03em; }
+.hero-title { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; line-height: 1.15; color: var(--text-main); margin-bottom: 1.5rem; letter-spacing: -0.03em; }
 .hero-subtitle { font-size: 1.125rem; color: var(--text-light); margin-bottom: 2rem; line-height: 1.6;}
 .hero-actions { display: flex; gap: 1rem; }
 
 /* Lead Form */
 .hero-form-wrapper { position: relative; }
 .form-card { background: var(--white); padding: 2.25rem; border-radius: var(--radius-md); border: 1px solid var(--gray-100); }
-.form-title { font-size: 1.35rem; font-weight: 800; color: var(--navy); margin-bottom: 0.4rem; }
+.form-title { font-size: 1.35rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.4rem; }
 .form-desc { font-size: 0.875rem; color: var(--text-light); margin-bottom: 1.5rem; line-height: 1.5; }
 
 .input-group { margin-bottom: 1.25rem; }
@@ -176,7 +176,7 @@ body {
 /* Global Sections */
 section { padding: 5rem 0; }
 .section-badge { display: block; font-size: 0.875rem; font-weight: 700; color: var(--royal); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
-.section-title { font-size: 2.5rem; font-weight: 800; color: var(--navy); margin-bottom: 1rem; letter-spacing: -0.02em; }
+.section-title { font-size: 2.5rem; font-weight: 800; color: var(--text-main); margin-bottom: 1rem; letter-spacing: -0.02em; }
 .section-desc { font-size: 1.125rem; color: var(--text-light); max-width: 600px; margin: 0 auto 3rem; }
 
 /* Sub Grids */
@@ -185,12 +185,12 @@ section { padding: 5rem 0; }
 .service-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); border-color: var(--gray-200); }
 .service-icon-wrap { width: 50px; height: 50px; background-color: rgba(0, 82, 255, 0.08); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem; color: var(--royal); }
 .service-icon { font-size: 1.8rem; font-variation-settings: 'FILL' 1;}
-.service-title { font-size: 1.15rem; font-weight: 800; color: var(--navy); margin-bottom: 0.5rem; }
+.service-title { font-size: 1.15rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem; }
 .service-text { font-size: 0.9rem; color: var(--text-light); line-height:1.5;}
 
 .benefits-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; margin-top: 3rem; }
 .benefit-card { text-align: center; }
-.benefit-card h3 { font-size: 1.25rem; font-weight: 800; color: var(--navy); margin-bottom: 0.5rem; }
+.benefit-card h3 { font-size: 1.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.5rem; }
 .benefit-card p { color: var(--text-light); font-size: 0.95rem; }
 
 /* Process Section */
@@ -225,13 +225,13 @@ section { padding: 5rem 0; }
 .review-card { background: var(--gray-50); padding: 2rem; border-radius: var(--radius-md); border: 1px solid var(--gray-100); }
 .stars { color: #F59E0B; margin-bottom: 1rem; display: flex;}
 .stars .material-symbols-outlined { font-variation-settings: 'FILL' 1; font-size: 1.25rem; }
-.review-text { font-size: 1rem; font-weight: 500; font-style: italic; color: var(--navy); margin-bottom: 1.5rem; line-height:1.6;}
+.review-text { font-size: 1rem; font-weight: 500; font-style: italic; color: var(--text-main); margin-bottom: 1.5rem; line-height:1.6;}
 .review-author { font-size: 0.875rem; color: var(--text-light); font-weight: 700; }
 
 /* FAQ Accordion */
 .faq-accordion-wrapper { max-width: 800px; margin: 0 auto; }
 .faq-item { border: 1px solid var(--gray-200); border-radius: var(--radius-sm); margin-bottom: 1rem; background: var(--white); overflow: hidden; }
-.faq-question { width: 100%; text-align: left; padding: 1.5rem; background: transparent; border: none; font-family: var(--font-main); font-size: 1.125rem; font-weight: 700; color: var(--navy); cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: background 0.2s;}
+.faq-question { width: 100%; text-align: left; padding: 1.5rem; background: transparent; border: none; font-family: var(--font-main); font-size: 1.125rem; font-weight: 700; color: var(--text-main); cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: background 0.2s;}
 .faq-question:hover { background: var(--gray-50); }
 .expand-icon { transition: transform 0.3s ease; color: var(--royal); }
 .faq-item.active .expand-icon { transform: rotate(180deg); }
